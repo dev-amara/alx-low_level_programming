@@ -1,17 +1,13 @@
-#include <unistd.h>
+
+
+#include <stdio.h>
 /**
- *main-Entry point
+ * main - Entry point
  *
- *Description:place our quote to stderr
- *instead of stdout
- *
- *Return:1 always (Success)
+ * Return: Always 0 (Success)
  */
-int main(void);
+int main(void)
 {
-
-        char *quote = "and that piece of art is useful\" - Dora Korpar,2015-1019\n";
-
-        write(2,quote,59);
-        return (1)
- }
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+return (1);
+}
