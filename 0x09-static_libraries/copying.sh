@@ -1,0 +1,20 @@
+#!/bin/bash
+cp ./alxschool-low_level_programming/0x04-more_functions_nested_loops/0-isupper.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x07-pointers_arrays_strings/0-memset.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x04-more_functions_nested_loops/1-isdigit.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x07-pointers_arrays_strings/1-memcpy.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x06-pointers_arrays_strings/1-strncat.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x07-pointers_arrays_strings/2-strchr.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x06-pointers_arrays_strings/2-strncpy.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x02-functions_nested_loops/3-islower.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x06-pointers_arrays_strings/3-strcmp.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x02-functions_nested_loops/4-isalpha.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x02-functions_nested_loops/6-abs.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x02-functions_nested_loops/_putchar.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x04-more_functions_nested_loops/_putchar.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x05-pointers_arrays_strings/_putchar.c /alxschool-low_level_programming/0x09-static_libraries
+cp ./alxschool-low_level_programming/0x06-pointers_arrays_strings/_putchar.c /alxschool-low_level_programming/0x09-static_libraries
