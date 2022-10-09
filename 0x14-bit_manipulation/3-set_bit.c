@@ -1,19 +1,30 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
-* set_bit - a function that sets the value of a bit to
-*1 at a given index
-* @n: a pointer to a number
-* @index:  is the index, starting from 0 of the bit
-*you want to set
-* Return: 1 if it worked or -1 if an error occurred
-**/
+ * set_bit - sets the bit at the given index to 1
+ * @n: pointer to the number
+ * @index: index to change
+ * Return: 1 if worked and -1 if did not work
+ */
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (index >= 64)
-		return (-1);
-	*n |= (1 << index);
-	return (1);
+	unsigned long int mask;
+	unsigned int s_index;
+	(void) index;
+
+	mask = 1;
+	s_index = 0;
+	while (mask < 2147483648)
+	{
+		if (s_index == index)
+		{
+			*n  = *n | 1 << index;
+			return (1);
+		}
+		s_index++;
+		mask = mask << 1;
+	}
+	return (-1);
 }
