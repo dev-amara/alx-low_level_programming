@@ -1,29 +1,26 @@
-#include <stdio.h>
 #include "variadic_functions.h"
 
 /**
- * print_numbers - function that prints numbers
- * @separator: string to be printed between numbers
- * @n: number of parameters
- * Return: Sum of all parameters
+ * print_numbers - prints numbers.
+ * @separator: string to be printed between numbers.
+ * @n: number of integers passed to the function.
+ *
+ * Return: no return.
  */
-
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	va_list arguments;
+	va_list valist;
 	unsigned int i;
-	int aux = 0;
 
+	va_start(valist, n);
 
-	va_start(arguments, n);
 	for (i = 0; i < n; i++)
 	{
-		aux = va_arg(arguments, int);
-		if (i < (n - 1) && separator != 0)
-			printf("%d%s", aux, separator);
-		else
-			printf("%d", aux);
+		printf("%d", va_arg(valist, int));
+		if (separator && i < n - 1)
+			printf("%s", separator);
 	}
-	va_end(arguments);
+
 	printf("\n");
+	va_end(valist);
 }
